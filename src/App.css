@@ -1,0 +1,76 @@
+:root {
+  background: #f4f6f8;
+  background-color: #f4f6f8;
+}
+#root {
+  max-width: 100%;
+  width: 100%;
+  background: #f4f6f8;
+  background-color: #f4f6f8;
+}
+body,
+main {
+  width: 100%;
+  padding-left: 1px !important;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.menu_btn_container button {
+  margin-right: 5px !important;
+}
+.menu_btn_container .MuiButton-icon.MuiButton-startIcon,
+.menu_btn_container .MuiButton-icon.MuiButton-endIcon {
+  margin: auto !important;
+}
+.folder-icon {
+  color: #ffc107;
+}
+.mail_head_tab {
+  font-size: 12px !important;
+}
+.mail_select_btn {
+  outline: unset !important;
+  border: unset !important;
+  padding: 0px !important;
+  min-width: auto !important;
+  margin: auto !important;
+}
+.panel_custom_design {
+  padding: 4px !important;
+}
+.mb-2 {
+  margin-bottom: 10px;
+}

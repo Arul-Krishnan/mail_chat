@@ -1,0 +1,27 @@
+.custom-menu-icon-size {
+  padding: 0px;
+}
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.btn-outline-none {
+  margin-left: -12px !important;
+  padding: 4px !important;
+}
+.text-align-justify {
+  text-align: justify !important;
+}
+.custom-toolbar {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+button:focus,
+button:focus-visible {
+  outline: none !important;
+}
+#trash_mail {
+  border: unset;
+  color: #474040;
+}
